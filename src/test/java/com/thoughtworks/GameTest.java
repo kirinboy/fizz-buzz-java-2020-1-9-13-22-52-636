@@ -29,4 +29,9 @@ public class GameTest {
     public void should_return_whizz_for_7() {
         assertEquals("whizz", new Game().fizzBuzz(7));
     }
+
+    @Test
+    public void should_return_whizz_for_14() {
+        assertEquals("whizz", new Game().fizzBuzz(14));
+    }
 }
