@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class GameTest {
+public class when_number_is_a_multiple_of_single_3_5_7 {
     @Test
     public void should_return_fizz_for_3() {
         assertEquals("Fizz", new Game().fizzBuzz(3));
