@@ -19,4 +19,9 @@ public class when_number_is_a_multiple_of_two_numbers_of_3_5_7 {
     public void should_fizzwhizz_for_21() {
         assertEquals("FizzWhizz", new Game().fizzBuzz(21));
     }
+
+    @Test
+    public void should_fizzbuzzwhizz_for_210() {
+        assertEquals("FizzBuzzWhizz", new Game().fizzBuzz(210));
+    }
 }
