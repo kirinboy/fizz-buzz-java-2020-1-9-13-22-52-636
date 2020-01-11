@@ -24,6 +24,8 @@ public class Game {
             return "Fizz";
         if (number % 5 == 0)
             return "Buzz";
-        return "Whizz";
+        if (number % 7 == 0)
+            return "Whizz";
+        return numberString;
     }
 }
