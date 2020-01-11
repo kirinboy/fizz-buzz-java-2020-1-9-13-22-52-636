@@ -3,6 +3,8 @@ package com.thoughtworks;
 public class Game {
     public String fizzBuzz(int number) {
         String numberString = Integer.toString(number);
+        if (numberString.contains("7") && number % 3 == 0)
+            return "Fizz";
         if (numberString.contains("5")){
             if (number % 7 == 0)
                 return "BuzzWhizz";
