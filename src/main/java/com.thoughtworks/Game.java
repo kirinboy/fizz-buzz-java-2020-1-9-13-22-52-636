@@ -2,9 +2,10 @@ package com.thoughtworks;
 
 public class Game {
     public String fizzBuzz(int number) {
-        if (Integer.toString(number).contains("3"))
+        String numberString = Integer.toString(number);
+        if (numberString.contains("3"))
             return "Fizz";
-        if (Integer.toString(number).contains("5"))
+        if (numberString.contains("5"))
             return "Buzz";
         if (number % 3 == 0 && number % 5 == 0 && number % 7 == 0)
             return "FizzBuzzWhizz";
